@@ -3,9 +3,10 @@
       "target": "es5",
       "lib": ["DOM", "ES5", "ScriptHost", "ES2015"],
       "module": "commonjs",
-      "declaration": true,
       "outDir": "./lib",
-      "strict": true
+      "strict": true,
+      "allowJs": true,
+      "declaration": false
     },
     "include": ["src"],
     "exclude": ["node_modules", "**/__tests__/*"]

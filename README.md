@@ -9,7 +9,7 @@ A nice package
 ## Uses
 ### npm i npm-function-pack-demo
 
-## Allow js in ts file 
+## Allow js in tsConfig.json file 
 {
     "compilerOptions": {
       "allowJs": true,

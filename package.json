@@ -1,6 +1,6 @@
 {
   "name": "npm-function-pack-demo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A nice package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

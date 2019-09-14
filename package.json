@@ -1,25 +1,29 @@
 {
   "name": "npm-function-pack-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nice package",
-   "main": "lib/index.js",
-   "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
     "build": "tsc",
     "test": "jest --config jestconfig.json",
     "prepare": "npm run build",
-   "prepublishOnly": "npm test && npm run lint",
-   "preversion": "npm run lint",
-   "version": "npm run format && git add -A src",
-   "postversion": "git push && git push --tags"
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ukBiswasIu/npm-function-pack.git"
   },
-  "keywords": ["new package", "test package", "npm-function-pack-demo"],
+  "keywords": [
+    "new package",
+    "test package",
+    "npm-function-pack-demo"
+  ],
   "author": "uttam@kumar",
   "license": "ISC",
   "bugs": {
